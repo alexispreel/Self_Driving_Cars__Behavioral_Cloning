@@ -1,7 +1,7 @@
 # Behavioral_Cloning
 Driving a car autonomously in a simulator
 
-Behavioral Cloning
+
 Contents
 Behavioral Cloning	1
 1	Reference to Project Code	2
@@ -131,5 +131,8 @@ After the collection process, I had 46,298 number of data points. I then preproc
 
 
 3.6	Generator 
-Using a generator was a necessity to feed such a large volume of data into this model.
+Using a generator (fit_generator syntax) was a necessity to feed such a large volume of data into this model (see lines 455-457 in model.py).
 The ideal number of epochs was 50. This can be visualized by plotting the training loss vs. the validation loss by epochs (see lines 470-477 in model.py).
+
+
+
